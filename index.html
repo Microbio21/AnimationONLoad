@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/globals.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/mediaQuery.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<title>Document</title>
+</head>
+<body>
+    <header class="container header" id="HeaderHidden">
+        <nav class="menu" id="navbar">
+            <div class="logo">
+                <a href="index.html"><h2>SimpleWebsite</h2></a>
+            </div>
+            <ul class="NavList">
+                <li><a href="#" class="active">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">CAPTABUILDERS</a></li>
+                <li><a href="#">WORK</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+            <div class="burger" id="burgerBoton" onclick="openMenu()">
+                <div class="stick left"></div>
+                <div class="stick stickCenter"></div>
+                <div class="stick right"></div>
+            </div>
+        </nav>
+    </header>
+    <section class="primary container" id="primary"> 
+        <div class="card" id="card1">
+            <div class="backgroundCard">
+                <img src="assets/118-macbook.svg" alt="">
+            </div>
+            <div class="Title">
+                <h2>Buy me a cofee</h2>
+            </div>
+        </div>
+        <div class="card" id="card2">
+            <div class="backgroundCard">
+                <img src="assets/103-gym-time.svg" alt="">
+            </div>
+            <div class="Title">
+                <h2>Every time</h2>
+            </div>
+        </div>
+        <div class="card" id="card3">
+            <div class="backgroundCard">
+                <img src="assets/101-gym-guy.svg" alt="">
+            </div>
+            <div class="Title">
+                <h2>Real practice</h2>
+            </div>
+        </div>
+    </section>
+    <script src="js/general.js"></script>
+</body>
+</html>
